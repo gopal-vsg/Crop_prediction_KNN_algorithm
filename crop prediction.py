@@ -19,8 +19,7 @@ from sklearn.preprocessing import LabelEncoder
 le = LabelEncoder()
 y = le.fit_transform(y)
 
-#print(y)
-#y_decoded = le.inverse_transform(y)
+
 
 #print(y_decoded)
 from sklearn.model_selection import  train_test_split
