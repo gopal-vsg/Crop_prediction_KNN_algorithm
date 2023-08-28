@@ -18,7 +18,7 @@ y = data.iloc[:,-1].values
 from sklearn.preprocessing import LabelEncoder
 le = LabelEncoder()
 y = le.fit_transform(y)
-
+#h
 
 
 #print(y_decoded)
